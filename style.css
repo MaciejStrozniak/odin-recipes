@@ -1,0 +1,97 @@
+* {
+    line-height: 1.5;
+}
+
+/* INDEX.HTML */
+
+body{
+    text-align: center;
+    background-color: snow;
+}
+
+h1{
+    font-size: 100px;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+p{
+    font-size: 50px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+div.links{
+    /* background-color: blueviolet; */
+    background-color: rgba(255, 228, 196, 0.61);
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    border-left: 0cap;
+    border-right: 0cap;
+    padding: 20px;
+}
+
+/* WEBPAGES */
+
+h1.recipe{
+    background-color: rgba(255, 228, 196, 0.61);
+    font-size: 80px;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    align-items: center;
+
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    border-left: none;
+    border-right: none;
+}
+
+img.recipe{
+    padding-bottom: 43px;
+}
+
+h2.recipe{
+    font-size: 70px;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+div.recipe {
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    border-bottom: none;
+}
+
+.list-recipe{
+    text-align: center;
+}
+
+.list-recipe ul{
+    display: inline-block;
+}
+
+.list-recipe ol{
+    display: inline-block;
+}
+
+.list-recipe ul li{
+    text-align: left;
+}
+
+.list-recipe ol li{
+    text-align: left;
+}
