@@ -7,10 +7,19 @@
 /* * {
     padding: 0;
     margin: 0;
-    font-size: 40px; /* nie jest konieczne
-    box-sizing: border-box;
+    font-size: 40px; // nie jest konieczne
+    box-sizing: border-box; // podstawowa komenda 
+    -webkit-box-sizing: border-box; // komendy dzialajace na wszystkich przegladarkach, dolaczac wszystkie trzy
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
     outline: 2px solid red;
 } */
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
 
 /* INDEX.HTML */
 
